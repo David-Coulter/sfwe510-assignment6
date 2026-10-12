@@ -1,0 +1,8 @@
+eureka:
+  instance:
+    hostname: eurekaserver1
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://eurekaserver2:8070/eureka/,http://eurekaserver3:8070/eureka/
